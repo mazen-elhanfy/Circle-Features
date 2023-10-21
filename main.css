@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    width: 1200px;
+    height: 850px;
+    margin: 50px auto;
+    /* border: 1px solid #00f; */
+    position: relative;
+}
+h1{
+    color: #242d3c;
+    text-transform: capitalize;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);   
+}
+.one{
+    color: #ddd;
+        width: 50%;
+        height: 15%;
+        position: absolute;
+        left: 50%;
+        top: 13%;
+        text-transform: capitalize;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+}
+.two img{
+        width: 50%;
+        height: 60%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        top: 25%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+}
+.cover{
+            width: 50%;
+            height: 60%;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            top: 25%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            background-color: #242d3c;
+            opacity: 0.6;
+            -o-transform: translateX(-50%);
+}
+.three{
+    color: #fff;
+        text-transform: capitalize;
+        font-weight: bold;
+        position: absolute;
+        left: 50%;
+        top: 32%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        font-size: 25px;
+    }
+.four{
+    color: #ddd;
+    width: 25%;
+    height: 15%;
+    position: absolute;
+    left: 52%;
+    top: 42%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.five,
+.six,
+.seven,
+.eight{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 8px solid #fff;
+    font-size: 55px;
+    color: #fff;
+}
+.five{
+background-color: #fb7059;
+    left: 23%;
+    top: 30%;
+}
+.six{
+    background-color: #80dcfe;
+    left: 65%;
+    top: 30%;
+}
+.seven{
+    left: 23%;
+    top: 65%;
+    background-color: #ffd260;
+}
+.eight{
+    left: 65%;
+    top: 65%;
+    background-color: #4dd4bf;
+}
+.nine{
+    color: #2e3544;
+        position: absolute;
+        left: 0%;
+        top: 27%;
+        text-transform: capitalize;
+        font-size: 30px;
+        font-weight: bold;
+}
+.ten{
+    color: #777;
+        text-transform: capitalize;
+        position: absolute;
+        left: 0;
+        top: 33%;
+        width: 24%;
+}
+.eleven{
+        color: #2e3544;
+            position: absolute;
+            left: 75%;
+            top: 27%;
+            text-transform: capitalize;
+            font-size: 30px;
+            font-weight: bold;
+}
+.twelve{
+        color: #777;
+            text-transform: capitalize;
+            position: absolute;
+            left: 75%;
+            top: 33%;
+            width: 24%;
+}
+.thirteen{
+    color: #2e3544;
+        position: absolute;
+        left: 0%;
+        top: 65%;
+        text-transform: capitalize;
+        font-size: 30px;
+        font-weight: bold;
+}
+.fourteen{
+        color: #777;
+            text-transform: capitalize;
+            position: absolute;
+            left: 0;
+            top: 72%;
+            width: 24%;
+}
+.fifteen{
+    color: #2e3544;
+        position: absolute;
+        left: 75%;
+        top: 65%;
+        text-transform: capitalize;
+        font-size: 30px;
+        font-weight: bold;
+}
+.sixteen{
+        color: #777;
+            text-transform: capitalize;
+            position: absolute;
+            left: 75%;
+            top: 72%;
+            width: 24%;
+}
